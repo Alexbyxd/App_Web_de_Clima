@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.pinimg.com/564x/23/15/1e/23151e7f89de4f79b773abf2e648b3c2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#ciudadEntrada {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#boton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #3498db; 
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#boton:hover {
+    background-color: #2980b9; 
+}
+
+#datosClima {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#datosClima h2 {
+    font-size: 1.5em;
+}
+
+#datosClima p {
+    margin: 5px 0;
+}
+
+#iconoInfo {
+    max-width: 50px; 
+    margin-top: 10px;
+}
